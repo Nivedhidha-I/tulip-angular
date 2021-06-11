@@ -46,7 +46,6 @@ import { CartComponent } from './cart/cart.component';
 import { OrdersComponent } from './orders/orders.component';
 import { SignupComponent } from './signup/signup.component';
 import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
-import { PaymentComponent } from './payment/payment.component';
 
 @NgModule({
   declarations: [
@@ -93,8 +92,7 @@ import { PaymentComponent } from './payment/payment.component';
     CartComponent,
     OrdersComponent,
     SignupComponent,
-    ForgotpasswordComponent,
-    PaymentComponent
+    ForgotpasswordComponent
   ],
   imports: [
     BrowserModule,

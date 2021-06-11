@@ -25,7 +25,6 @@ import { Lipstick3Component } from './lipstick/lipstick3/lipstick3.component';
 import { Lipstick4Component } from './lipstick/lipstick4/lipstick4.component';
 import { LoginComponent } from './login/login.component';
 import { OrdersComponent } from './orders/orders.component';
-import { PaymentComponent } from './payment/payment.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SerumComponent } from './serum/serum.component';
 import { Serum1Component } from './serum/serum1/serum1.component';
@@ -88,8 +87,7 @@ const routes: Routes = [
   {path:'lipstick1', component:Lipstick1Component},
   {path:'lipstick2', component:Lipstick2Component},
   {path:'lipstick3', component:Lipstick3Component},
-  {path:'lipstick4', component:Lipstick4Component},
-  {path:'payment', component:PaymentComponent}
+  {path:'lipstick4', component:Lipstick4Component}
 ];
 
 @NgModule({
