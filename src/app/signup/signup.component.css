@@ -1,0 +1,88 @@
+form input:focus {
+    outline: none;
+}
+
+div{
+    text-align: center;
+    margin: 55px 300px;
+    padding: 25px 350px 25px 78px;
+    background-color: #e4efe7;
+    color: #064420;
+    background-image: url('../../assets/tulip.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 17.77rem;
+    border: 15px #638f76 solid;
+}
+
+.star{
+    color: rgb(255, 115, 115);
+}
+
+a{
+    color: #064420;
+}
+
+a:hover{
+    text-decoration:underline;
+    color: green;
+}
+
+p{
+    display: inline;
+    margin-right: 10px;
+}
+
+#email{
+    padding: 5px 80px 5px 10px;
+    background-color: #fdfaf6;
+    border: 5px solid #faf1e6;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+#password{
+    padding: 5px 80px 5px 10px;
+    background-color: #fdfaf6;
+    border: 5px solid #faf1e6;
+    margin-bottom: 15px;
+    margin-left: 47px;
+}
+
+#fname{
+    padding: 5px 80px 5px 10px;
+    background-color: #fdfaf6;
+    border: 5px solid #faf1e6;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+#lname{
+    padding: 5px 80px 5px 10px;
+    background-color: #fdfaf6;
+    border: 5px solid #faf1e6;
+    margin-bottom: 15px;
+    margin-left: 36px;
+}
+
+#button{
+    padding: 7px 57px;
+    color: #064420;
+    background-color: #faf1e6;
+    border: 5px solid #fdfaf6;
+    margin-bottom: 12px;
+}
+
+#button:hover{
+    background-color: #fdf3e6;
+    border: 5px solid #ffffff;
+}
+
+label{
+    font-family: 'Merienda', cursive;
+}
+
+h2{
+    margin-bottom: 20px;
+    font-family: 'Courgette', cursive;
+}

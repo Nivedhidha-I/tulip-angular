@@ -1,0 +1,105 @@
+<div class="row">
+    <div class="col-sm-4">
+        <div class="slider">
+            <div class="preview">
+                <img src="../../../assets/E-COMMERCE/hair gel/hair-gel11.jpg" id="imagebox" alt="">
+            </div>
+            <div class="product">
+                <img src="../../../assets/E-COMMERCE/hair gel/hair-gel11.jpg" alt="" onclick="clickme(this)">
+                <img src="../../../assets/E-COMMERCE/hair gel/hair-gel12.jpg" alt="" onclick="clickme(this)">
+                <img src="../../../assets/E-COMMERCE/hair gel/hair-gel13.jpg" alt="" onclick="clickme(this)">
+                <img src="../../../assets/E-COMMERCE/hair gel/hair-gel14.jpg" alt="" onclick="clickme(this)">
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-8">
+        <div class="content">
+            <h2>NATURALLY MADE HAIR WAX</h2>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p class="price">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                ut labore et dolore magna aliqua. Sed odio morbi quis commodo odio aenean sed adipiscing diam. 
+                Consequat interdum varius sit amet mattis.</p>
+            <p style="color:#fe980f ; line-height: 40px;font-size: 30px;">Quantity: <input style="height: 30px; width: 40px;" type="number" value="1"></p>
+            <button type="button">
+                <i class="fa fa-shopping-cart"></i>
+                Add to cart
+            </button>
+
+            <button type="button">
+                <i class="fa fa-shopping-cart"></i>
+                Add to WishList
+            </button>
+        </div>
+    </div>
+</div>
+<hr>
+<h3>Related Items</h3>
+
+<div class="row">
+    <div class="col-sm">
+        <a href="hairgel2"><div class="Related">
+            <div class="items">
+                <img class="detailsphoto" src="../../../assets/E-COMMERCE/hair gel/hair-gel22.jpg" alt="">
+                <div class="details">
+                    <p>HAIR GEL</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>RS.120</p>
+                </div>
+            </div>
+        </div></a>
+
+        <a href="hairgel3"><div class="Related">
+            <div class="items">
+                <img class="detailsphoto" src="../../../assets/E-COMMERCE/hair gel/hair-gel11.jpg" alt="">
+                <div class="details">
+                    <p>HAIR GEL</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Rs.80</p>
+                </div>
+            </div>
+        </div></a>
+
+        <a href="hairgel4"><div class="Related">
+            <div class="items">
+                <img class="detailsphoto" src="../../../assets/E-COMMERCE/hair gel/hair-gel22.jpg" alt="">
+                <div class="details">
+                    <p>HAIR GEL</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Rs.110</p>
+                </div>
+            </div>
+        </div></a>
+    </div>
+</div>
+
+<script>
+    function clickme(smallImg) {
+        var fullImg = document.getElementById("imagebox");
+        fullImg.src = smallImg.src;
+    }
+</script>

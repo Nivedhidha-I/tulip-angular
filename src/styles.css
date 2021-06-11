@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'bootstrap.css';
+
+html{
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width:1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:#faf1e6;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #126434;
+}
+  
+*::selection{
+    background-color: #faf1e6;
+}

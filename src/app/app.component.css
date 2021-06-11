@@ -1,0 +1,108 @@
+.header{
+    background-color: #faf1e6;
+}
+
+h1{
+    margin: 0;
+    color: #38761d;
+    display: inline-block;
+    margin: 5px 30px;
+    font-family: 'Indie Flower', cursive;
+}
+
+h1 span{
+    color: #e5607b;
+}
+
+#links{
+    position: absolute;
+    right: 1rem;
+    top: 0.9rem;
+}
+
+.searchbar{
+    border: 2px double #fdfaf6;
+    border-radius: 0.625rem;
+    width: 14.375rem;
+}
+
+#search{
+    width: 194px;
+    height: 32px;
+    color: green;
+    border: 0;
+    background: transparent;
+    padding-left: 10px;
+}
+
+#search:focus {
+    outline: none;
+}
+
+#search-icon{
+    width: 2rem;
+    position: relative;
+    bottom: 0.05rem;
+    right: 0.1rem;
+    background-color: #fdfaf6;
+    padding: 0.1875rem;
+    border-radius: 0.625rem;
+}
+
+#logo{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.625rem;
+}
+
+.headerlinks{
+    margin: 0.625rem 1rem 0.625rem;
+    color: #064420;
+    text-decoration: none;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: bold;
+}
+
+.n{
+    background-color: #064420;
+    width: 100%;
+}
+
+.n a{
+    text-decoration: none;
+    padding: 0rem 1.875rem;
+    color: #e4efe7;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: bold;
+}
+
+.n a:hover{
+    color: #fdfaf6;
+}
+
+span{
+    display: inline-block;
+}
+
+.content{
+    background-color: #fdfaf6;
+    min-height: 37.2rem;
+}
+
+.footer{
+    text-align: center;
+    background-color: #faf1e6;
+    margin-bottom: 5px;
+}
+
+.footer p{
+    color: #064420;
+    display: inline-block;
+    margin: 0;
+    padding: 0.3125rem 5rem;
+}
+
+p a{
+    text-decoration: none;
+    color: #064420;
+}
