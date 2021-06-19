@@ -33,7 +33,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.js",
+              "src/assets/js/script.js",
+              "src/assets/js/zoom.js"
+            ]
           },
           "configurations": {
             "production": {

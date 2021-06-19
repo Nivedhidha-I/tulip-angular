@@ -1,0 +1,224 @@
+.product{
+    background-color:#E4EFE7;
+    width: 1300px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    display:grid ;
+    grid-template-columns: 1fr 1fr;
+}
+.description{
+    margin-right: 100px;
+    margin-left: -730px;
+    width: 600px;
+    padding-top: 20px;
+}
+.description  h1{
+    margin: 40px 0 0;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    font-size: 3rem;
+    width: 500px;
+    color: #064420;
+    text-shadow:  -2px 2px #0644204f;
+}
+.rating{
+    color:gold;
+    font-size: 1.2rem;
+}
+#quantity{
+    line-height: 20px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.change{
+    background-color: transparent;
+    border: 0;
+    padding: 10px;
+    font-size: 1.3rem;
+    outline: 0;
+}
+p b{
+    color: rgb(255, 110, 110);
+}
+#mrp{
+    margin-top: 15px;
+}
+.change:hover{
+    opacity: 0.5;
+}
+#quantity input{
+    height: 30px;
+    width: 40px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+    color: #064420;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.description p{
+    font-size: 15px;
+    margin-left: 5px;
+    font-size: 1rem;
+    color: #064420;
+}
+.description .price{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: black;
+}
+.description .buy{
+    font-size: 20px;
+    padding: 10px 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 10px;
+    outline: none;
+    background-color: #064420;
+    color: #fff;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0,0.7);
+}
+.description .buy:hover {
+
+    background-color:#0d582d;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0,.9);
+}
+.description .wishlist:hover i{
+    color:rgb(255, 106, 106);
+}
+.description .cart:hover i{
+    color:silver;
+}
+.xzoom-container{
+    margin-left: 90px;
+}
+.xzoom-container img{
+    height: 450px;   
+}
+.xzoom-thumbs a{
+    text-decoration: none;
+}
+.xzoom-thumbs img{
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid#ccc;
+}
+.xzoom-preview{
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 20px 2px rgba(0, 0, 0,0.2);
+}
+.active{
+    border: 1px solid #4aaad2;
+    box-shadow: 0 0 3px 0 #4aaad2;
+}
+.info {
+    display: inline;
+    margin: 50px;
+    border-top:5px solid green;
+    border-bottom: 5px solid green;
+    width: 1200px;
+    text-align: center;
+    background-color: #FDFAF6;
+}
+.info p{
+    font-size: 1rem;
+}
+.info h3{
+    font-size: 25px;
+    text-align: center;
+    font-family:cursive;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    line-height: 70px;
+    color: #064420;
+}
+.info h3::after{
+    content: '';
+    background:#148142;
+    width: 125px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform:translate(-50%)
+}
+.advantage {
+    margin-bottom: 40px;
+}
+.related p{
+    margin-bottom: 0px;
+}
+.related{
+    width: 1300px;
+    margin: 50px auto 50px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    background-color:#e4efe7;
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    line-height: 70px;
+    color: #064420;
+}
+h2::after{
+    content: '';
+    background:green;
+    width: 130px;
+    height: 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform:translate(-50%)
+}
+ul{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.related .row{
+    width: 100%;
+    height: auto;
+}
+.columns{
+    flex-basis: 10%;
+    height: 100%; 
+}
+.items img{
+    width: 200px;
+    height: 200px;
+    border: .2rem solid #064420;
+    object-fit: cover;
+    border-radius: 10%;
+}
+.details{
+    margin-top: 20px;
+}
+.details p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.rowa{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.xzoom-gallery{
+    margin-left: 10px;
+}
