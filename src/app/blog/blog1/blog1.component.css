@@ -1,0 +1,29 @@
+.containera{
+    width: 1550px;
+   margin-bottom: 30px;
+    margin-top: 20px;
+    background-color: #e4efe7;
+}
+
+.containera h2{
+    text-align: center;
+}
+.containera p{
+    margin-top: 30px;
+    text-align: center;
+}
+.containera .contenta{
+    width: 1250px;
+    margin-left: 9%;
+    text-align: center;
+}
+.containera .contenta p{ 
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1rem;
+}
+.containera img{
+    margin-left: 9%;
+    width: 80%;
+    height: 70%;
+}

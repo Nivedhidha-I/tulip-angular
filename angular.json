@@ -36,7 +36,10 @@
             "scripts": [
               "src/assets/js/jquery.js",
               "src/assets/js/script.js",
-              "src/assets/js/zoom.js"
+              "src/assets/js/zoom.js",
+              "src/assets/js/slider.js",
+              "src/assets/js/sliderscript.js",
+              "src/assets/js/swiper.min.js"
             ]
           },
           "configurations": {
