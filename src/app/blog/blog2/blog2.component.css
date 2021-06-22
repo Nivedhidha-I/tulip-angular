@@ -1,0 +1,26 @@
+.containera{
+    background-color: #faf1e6;
+    display: inline-block;
+    width: 87%;
+    position: relative;
+    margin: 50px 95px;
+    padding: 30px 50px;
+    color: #064420;
+}
+img{
+    width: 800px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+h2{
+    font-family: 'Merienda', cursive;
+    font-size: 2.4rem;
+    text-shadow: 2px 2px #06442071;
+}
+#by{
+    text-align: right;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-family: 'Tangerine', cursive;
+}

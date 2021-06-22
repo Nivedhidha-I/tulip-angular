@@ -1,0 +1,25 @@
+h2{
+    color: #064420;
+    margin-bottom: 0px;
+    background-color: #cbe0d1;
+    padding: 23px 45px;
+    font-family: 'Neucha', cursive;
+    font-size: 3.2rem;
+}
+
+.order{
+    position: relative;
+    border-top: 0px;
+    background-color: #eff5f1;
+    border-bottom: 2px #06442010 solid;
+}
+
+#main{
+    margin: 40px 150px;
+}
+.status{
+    position: absolute;
+    color: rgba(228, 29, 69, 0.76);
+    top: 0.7rem;
+    right: 1.5rem;
+}
