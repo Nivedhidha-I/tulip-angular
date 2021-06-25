@@ -1,8 +1,6 @@
-@charset "utf-8";
-		.blog{
+.blog{
 			margin-top: 150px;
-		}
-
+}
 		.swiper-slide{
 			width:300px !important;
 			 }
@@ -29,8 +27,6 @@
 				text-align:center;}
 			.img-box{
 					height:170px;
-	
-				
 					}
 			.img-box img{
 						height:auto;
@@ -45,7 +41,6 @@
 							right:22px;
 							color:#f16007;}
 						.detail{
-							
 								display:flex;
 								flex-direction:column;
 								align-items:center;
@@ -100,21 +95,17 @@
 							   font-family:fantasy;
 							   font-weight: 500;
 							   font-style:normal;
-							
-							
-							
 							}
                               .containera{
                                 width: 1500px;
                                 margin-top: 0px;
                                 justify-content: center;
-                                background-color: #e4efe7;
                                 padding: 15px;
                                 border-radius: 10px;
                                 margin-left: 10px;
                                 display :block ;
                                 grid-template-columns: 1fr 1fr;
-                            
+
                             }
                             
                             .wrapper{
@@ -132,14 +123,13 @@
                               position: absolute;
                             }
                             .slide-image img{
-                              width:80% ;
+                              width:80%;
                               margin-top: 0px;
                               height: 100%;
                               margin-left: 10%;
                               object-fit: cover;
                               border: 5px solid black;
                             }
-                            
                             .next-btn , .prev-btn {
                               background-color: #FAF1E6;
                               padding: 15px;
@@ -287,7 +277,6 @@
                             .fa-instagram{
                               color:deeppink;
                             }
-                            
                             .pic{
                               filter: grayscale(1000%);
                             }
@@ -300,22 +289,17 @@
                             .col:hover .icons{
                               max-height: 80px;
                             }
-                            .layer{
-                              width: 100%;
-                              position: absolute;
-                              top: 0;
-                              border-bottom: 2px solid #064420;
-                              max-height: 0;
-                              overflow: hidden;
-                              transition: max-height 1s;
-                            }
-                            
-                            
-                            .col:hover .layer{
-                              max-height: 400px;
-                              width: 300px;
-                            }
-                            
-                            
-                            
-                            
+.layer{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    border-bottom: 2px solid #064420;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+.col:hover .layer{
+    max-height: 100%;
+    width: 100%;
+}

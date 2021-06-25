@@ -17,7 +17,7 @@ h1 span{
 #links{
     position: absolute;
     right: 1rem;
-    top: 0.9rem;
+    top: 0.65rem;
 }
 
 .searchbar{
@@ -92,17 +92,49 @@ span{
 .footer{
     text-align: center;
     background-color: #faf1e6;
+    padding: 20px 0 15px;
     margin-bottom: 5px;
 }
 
 .footer p{
     color: #064420;
-    display: inline-block;
     margin: 0;
-    padding: 0.3125rem 5rem;
+    padding: 0.3125rem 1rem;
+}
+
+#contact, #email{
+    display: inline-block;
 }
 
 p a{
     text-decoration: none;
     color: #064420;
+}
+
+.logo{
+    width: 30px;
+    opacity: 0.7;
+    margin: 0 10px;
+}
+
+.logo:hover{
+    opacity: 1;
+}
+
+.chatbot{
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+}
+
+.botlogo{
+    width: 50px;
+    cursor: pointer;
+}
+
+.botbutton{
+    outline: none;
+    background-color: transparent;
+    border: transparent;
 }

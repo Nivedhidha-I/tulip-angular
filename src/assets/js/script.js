@@ -5,7 +5,6 @@ $(function()
             zoomHeight:450,
             tint: "#333",
             Xoffset : 5,
-        
-            
         });
-    });
+    }
+);

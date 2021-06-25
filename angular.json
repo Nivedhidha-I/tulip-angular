@@ -39,7 +39,8 @@
               "src/assets/js/zoom.js",
               "src/assets/js/slider.js",
               "src/assets/js/sliderscript.js",
-              "src/assets/js/swiper.min.js"
+              "src/assets/js/swiper.min.js",
+              "src/assets/js/stickynavbar.js"
             ]
           },
           "configurations": {

@@ -1,7 +1,7 @@
 .product{
     background-color:#E4EFE7;
     width: 1300px;
-    margin: 20px auto 0;
+    margin: 50px auto 0;
     border-radius: 10px;
     display:grid ;
     grid-template-columns: 1fr 1fr;

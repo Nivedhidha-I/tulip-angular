@@ -1,15 +1,11 @@
 .containera{
     width: 1300px;
-    margin: 50px auto 50px;
-    padding: 20px 0 20px;
+    margin: 50px auto;
+    padding-top: 20px;
     background-color: rgb(253, 245, 227);
     text-align: center;
 }
-.blog{
-    display: inline-block;
-    width: 50%;
-    padding: 2% 3%;
-}
+
 h2{
     color:maroon;
     margin: 20px 490px 30px;
@@ -32,13 +28,14 @@ h3{
     color:black;
 }
 img{
-    height: 250px;
-    width: 500px;   
+    height: 500px;
+    width: 1000px;   
 }
 .content{
     color:rgb(88, 38, 38);
     font-family: 'Pangolin', cursive;
     margin-top: 15px;
+    margin: 15px 150px 0;
 }
 a{
    background-color:  rgba(240, 220, 191, 0.56);
@@ -50,4 +47,7 @@ a{
    font-family: 'Courier New', Courier, monospace;
    font-size: 18px; 
    font-weight: bold;
+}
+hr{
+    border-top: rgba(0, 0, 0, 0.404) 2px solid;
 }
