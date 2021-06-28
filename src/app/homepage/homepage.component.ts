@@ -1,9 +1,13 @@
+import { Time } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { TimeInterval, Timestamp } from 'rxjs';
+
 
 @Component({
   selector: 'app-homepage',
   templateUrl: './homepage.component.html',
-  styleUrls: ['./homepage.component.css']
+  styleUrls: ['./homepage.component.css'],
+
 })
 export class HomepageComponent implements OnInit {
 
@@ -12,5 +16,4 @@ export class HomepageComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

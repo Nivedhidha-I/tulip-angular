@@ -1,0 +1,39 @@
+div{
+    margin: 67px 200px;
+    padding: 25px 350px 25px 78px;
+    background-color: #fffaec;
+    color: #4A503D;
+    background-image: url('../../assets/images/profile.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 20rem;
+    border: 15px #e29083ce solid;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Courgette', cursive;
+    font-size: 3.5rem;
+}
+
+hr{
+    border-top: 3px #8e977575 solid;
+    width: 90%;
+}
+
+table{
+    font-family: 'Merienda', cursive;
+    margin: 0 50px;
+}
+
+.title{
+    font-size: 1.6rem;
+    width: 220px;
+    height: 67px;
+    color: #064420de;
+}
+
+p{
+    font-size: 1.4rem;
+}

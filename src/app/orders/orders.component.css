@@ -12,14 +12,77 @@ h2{
     border-top: 0px;
     background-color: #eff5f1;
     border-bottom: 2px #06442010 solid;
+    padding: 30px 100px;
+    color: rgb(0, 112, 0);
 }
 
 #main{
     margin: 40px 150px;
 }
-.status{
+
+.icon{
+    display: inline-block;
     position: absolute;
-    color: rgba(228, 29, 69, 0.76);
-    top: 0.7rem;
-    right: 1.5rem;
+    top: 1.5rem;
+    right: 2.5rem;
 }
+
+.icon img{
+    width: 50px;
+}
+
+.icon img:hover{
+    opacity: 0.5;
+}
+
+.hide {
+    display: none;
+}
+      
+.icon:hover + .hide {
+    display: inline-block;
+    font-size: 0.7rem;
+    background-color: rgb(235, 235, 235);
+    color: grey;
+    padding: 2px 5px 4px;
+    position: absolute;
+    top: 80px;
+    right: 35px;
+}
+
+hr{
+    margin: 0;
+}
+
+.delivery{
+    margin-bottom: 0;
+}
+
+.orderno{
+    font-size: 2.5rem;
+    font-family: 'Caveat Brush', cursive;
+    color: #0f552c;
+}
+
+p{
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 0;
+}
+
+tr{
+    font-family: 'Kaushan Script', cursive;
+}
+
+td{
+    width: 200px;
+}
+
+table{
+    margin-bottom: 30px;
+}
+
+.topics{
+    font-size: 1.5rem;
+    color: #0f552c;
+}
+
